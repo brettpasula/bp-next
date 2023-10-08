@@ -1,9 +1,14 @@
-import { Box, Typography } from "@mui/material";
+import { Container } from "@mui/material";
+import Home from "./components/home";
+import About from "./components/about";
+import Contact from "./components/contact";
 
-export default function Home() {
+export default function Main() {
   return (
-    <Box>
-      <Typography>Hi</Typography>
-    </Box>
+    <Container>
+      <Home />
+      <About />
+      <Contact />
+    </Container>
   )
 }
