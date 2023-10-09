@@ -5,7 +5,7 @@ import Contact from "./components/contact";
 
 export default function Main() {
   return (
-    <Container>
+    <Container sx={{ flexGrow: 1, flexDirection: "column" }}>
       <Home />
       <About />
       <Contact />
