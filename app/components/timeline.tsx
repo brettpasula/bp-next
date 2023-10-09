@@ -1,4 +1,4 @@
-"use client";
+"use client"; // needed for the Timeline MUI component
 
 import {
   Computer,
@@ -23,6 +23,9 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import Typography from "@mui/material/Typography";
 
+/**
+ * Uses the {@link https://mui.com/material-ui/react-timeline/ | Material UI Labs Timeline} component.
+ */
 export default function AboutTimeline() {
   return (
     <Timeline position="alternate">
@@ -39,7 +42,7 @@ export default function AboutTimeline() {
             Born and raised on the prairie of Alberta, Canada. Many of my
             current hobbies and passions were sparked in childhood:
           </Typography>
-          <Box marginBottom="25%">
+          <Box >
             <List>
               <ListItem>
                 <ListItemIcon>
@@ -83,7 +86,7 @@ export default function AboutTimeline() {
         </TimelineSeparator>
         <TimelineContent>
           <Typography variant="h6">(West)bound and down</Typography>
-          <Typography variant="body1" marginBottom="25%">
+          <Typography variant="body1" >
             I moved to the west coast of Canada in the early 2010&apos;s to
             attend the University of British Columbia (UBC) and play on the
             Thunderbirds golf team. I graduated with a Bachelor of Science in
@@ -105,7 +108,7 @@ export default function AboutTimeline() {
         </TimelineSeparator>
         <TimelineContent>
           <Typography variant="h6">Back to school</Typography>
-          <Typography variant="body1" marginBottom="25%">
+          <Typography variant="body1" >
             In the fall of 2018 I returned to UBC to complete my Bachelor of
             Computer Science.
           </Typography>

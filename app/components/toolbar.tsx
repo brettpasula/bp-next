@@ -1,32 +1,28 @@
 import { GitHub, LinkedIn } from "@mui/icons-material";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
-import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import Stack from "@mui/material/Stack";
 import Toolbar from "@mui/material/Toolbar";
-import Link from "next/link";
+import LinkButton from "./link-button";
 
 export default function TopToolbar() {
   return (
     <Box>
       <AppBar position="fixed">
         <Toolbar>
-          <Button variant="text">
-            <Link style={{ textDecoration: "none", color: "white" }} href="/">
-              Brett Pasula
-            </Link>
-          </Button>
+          <LinkButton buttonStyle={{ color: "#FFF" }} href="/" variant="text">
+            Brett Pasula
+          </LinkButton>
           {/* fills middle space on the AppBar to keep buttons on the right */}
           <Box flexGrow="1"></Box>
           <Stack direction="row" spacing={1}>
-            <Link href="/about" passHref>
-              <Button variant="contained">About</Button>
-            </Link>
-            <Link href="/contact" passHref>
-              <Button variant="contained">Contact</Button>
-            </Link>
-
+            <LinkButton href="/about" variant="contained">
+              About
+            </LinkButton>
+            <LinkButton href="/contact" variant="contained">
+              Contact
+            </LinkButton>
             <IconButton
               href="https://github.com/brettpasula"
               aria-label="GitHub"
