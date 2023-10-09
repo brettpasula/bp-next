@@ -1,10 +1,27 @@
-import { Container } from "@mui/material";
-import Home from "./components/home";
+import Container from "@mui/material/Container";
+import Box from "@mui/material/Box";
+import Stack from "@mui/material/Stack";
+import Typography from "@mui/material/Typography";
 
-export default function Main() {
+export default function Home() {
   return (
     <Container>
-      <Home />
+      <Box
+        height="100vh"
+        display="flex"
+        textAlign="center"
+        alignItems="center"
+      >
+        <Stack direction="column" flexGrow="1">
+          <Typography id="home" variant="h1">
+            Hello! 👋
+          </Typography>
+          <Typography>
+            This is the personal website of Brett Pasula, a software developer
+            from Canada.
+          </Typography>
+        </Stack>
+      </Box>
     </Container>
-  )
+  );
 }

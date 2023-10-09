@@ -5,12 +5,11 @@ import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import Stack from "@mui/material/Stack";
 import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
 import Link from "next/link";
 
 export default function TopToolbar() {
   return (
-    <Box flexGrow="1">
+    <Box>
       <AppBar position="fixed">
         <Toolbar>
           <Button variant="text">
@@ -18,7 +17,7 @@ export default function TopToolbar() {
               Brett Pasula
             </Link>
           </Button>
-          {/* fills middle space on the AppBar */}
+          {/* fills middle space on the AppBar to keep buttons on the right */}
           <Box flexGrow="1"></Box>
           <Stack direction="row" spacing={1}>
             <Button variant="contained">

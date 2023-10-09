@@ -5,7 +5,7 @@ import Typography from "@mui/material/Typography";
 export default function Contact() {
   return (
     <Box>
-      <Typography id="contact" variant="h6">Contact</Typography>
+      <Typography variant="h6">Contact</Typography>
     </Box>
   )
 }
