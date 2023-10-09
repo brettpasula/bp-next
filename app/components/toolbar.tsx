@@ -1,6 +1,8 @@
+import { GitHub, LinkedIn } from "@mui/icons-material";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
+import IconButton from "@mui/material/IconButton";
 import Stack from "@mui/material/Stack";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
@@ -35,6 +37,18 @@ export default function TopToolbar() {
                 Contact
               </Link>
             </Button>
+            <IconButton
+              href="https://github.com/brettpasula"
+              aria-label="GitHub"
+            >
+              <GitHub sx={{ color: "#FFF" }} />
+            </IconButton>
+            <IconButton
+              href="https://www.linkedin.com/in/brettpasula/"
+              aria-label="LinkedIn"
+            >
+              <LinkedIn sx={{ color: "#FFF" }} />
+            </IconButton>
           </Stack>
         </Toolbar>
       </AppBar>
