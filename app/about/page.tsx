@@ -1,20 +1,19 @@
 "use client";
 
-import { Home, School } from "@mui/icons-material";
-import {
-  Timeline,
-  TimelineConnector,
-  TimelineContent,
-  TimelineDot,
-  TimelineItem,
-  TimelineOppositeContent,
-  TimelineSeparator,
-} from "@mui/lab";
-import { Box, Typography } from "@mui/material";
+import { Computer, Home, School } from "@mui/icons-material";
+import Timeline from "@mui/lab/Timeline";
+import TimelineConnector from "@mui/lab/TimelineConnector";
+import TimelineContent from "@mui/lab/TimelineContent";
+import TimelineDot from "@mui/lab/TimelineDot";
+import TimelineItem from "@mui/lab/TimelineItem";
+import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
+import TimelineSeparator from "@mui/lab/TimelineSeparator";
+import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
 
 export default function About() {
   return (
-    <Box flexGrow="1">
+    <Box>
       <Typography id="about" variant="h6">
         About
       </Typography>
@@ -27,9 +26,12 @@ export default function About() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent>
-            Born and raised on the prairie of Alberta, Canada. Many of my
-            current hobbies and passions were sparked in childhood; golf,
-            skiing, curiosity of the natural world.
+            <Typography variant="h6">Home</Typography>
+            <Typography>
+              Born and raised on the prairie of Alberta, Canada. Many of my
+              current hobbies and passions were sparked in childhood; golf,
+              skiing, curiosity of the natural world.
+            </Typography>
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
@@ -45,8 +47,8 @@ export default function About() {
           <TimelineContent>
             <Typography variant="h6">(West)bound and down</Typography>
             <Typography>
-              I moved to the west coast of Canada in the early 2010's to attend
-              the University of British Columbia (UBC) and play on the
+              I moved to the west coast of Canada in the early 2010&apos;s to
+              attend the University of British Columbia (UBC) and play on the
               Thunderbirds golf team. I graduated with a Bachelor of Science in
               Geology with Honours in 2018.
             </Typography>
@@ -72,11 +74,13 @@ export default function About() {
         </TimelineItem>
         <TimelineItem>
           <TimelineSeparator>
-            <TimelineDot />
+            <TimelineDot>
+              <Computer />
+            </TimelineDot>
           </TimelineSeparator>
           <TimelineContent>
-          <Typography variant="h6">Today</Typography>
-            Today I work in private industry. I'm passionate about building
+            <Typography variant="h6">Today</Typography>
+            Today I work in private industry. I&apos;m passionate about building
             software that makes a positive impact in the world. I enjoy working
             with all parts of the stack, but my hobby interest lies in the
             front-end (I ❤️ design systems).
