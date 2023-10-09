@@ -20,22 +20,13 @@ export default function TopToolbar() {
           {/* fills middle space on the AppBar to keep buttons on the right */}
           <Box flexGrow="1"></Box>
           <Stack direction="row" spacing={1}>
-            <Button variant="contained">
-              <Link
-                style={{ textDecoration: "none", color: "white" }}
-                href="/about"
-              >
-                About
-              </Link>
-            </Button>
-            <Button variant="contained">
-              <Link
-                style={{ textDecoration: "none", color: "white" }}
-                href="/contact"
-              >
-                Contact
-              </Link>
-            </Button>
+            <Link href="/about" passHref>
+              <Button variant="contained">About</Button>
+            </Link>
+            <Link href="/contact" passHref>
+              <Button variant="contained">Contact</Button>
+            </Link>
+
             <IconButton
               href="https://github.com/brettpasula"
               aria-label="GitHub"
