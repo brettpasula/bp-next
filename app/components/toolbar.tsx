@@ -6,6 +6,9 @@ import Stack from "@mui/material/Stack";
 import Toolbar from "@mui/material/Toolbar";
 import LinkButton from "./link-button";
 
+/**
+ * Uses the {@link https://mui.com/material-ui/react-app-bar/ | Material UI App Bar} component.
+ */
 export default function TopToolbar() {
   return (
     <Box>

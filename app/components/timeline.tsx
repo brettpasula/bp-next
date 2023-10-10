@@ -16,7 +16,6 @@ import TimelineDot from "@mui/lab/TimelineDot";
 import TimelineItem from "@mui/lab/TimelineItem";
 import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
 import TimelineSeparator from "@mui/lab/TimelineSeparator";
-import Box from "@mui/material/Box";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemIcon from "@mui/material/ListItemIcon";
@@ -42,34 +41,32 @@ export default function AboutTimeline() {
             Born and raised on the prairie of Alberta, Canada. Many of my
             current hobbies and passions were sparked in childhood:
           </Typography>
-          <Box >
-            <List>
-              <ListItem>
-                <ListItemIcon>
-                  <Landscape />
-                </ListItemIcon>
-                <ListItemText primary="Getting outdoors" />
-              </ListItem>
-              <ListItem>
-                <ListItemIcon>
-                  <GolfCourse />
-                </ListItemIcon>
-                <ListItemText primary="Golf" />
-              </ListItem>
-              <ListItem>
-                <ListItemIcon>
-                  <DownhillSkiing />
-                </ListItemIcon>
-                <ListItemText primary="Skiing" />
-              </ListItem>
-              <ListItem>
-                <ListItemIcon>
-                  <Memory />
-                </ListItemIcon>
-                <ListItemText primary="Computing" />
-              </ListItem>
-            </List>
-          </Box>
+          <List>
+            <ListItem>
+              <ListItemIcon>
+                <Landscape />
+              </ListItemIcon>
+              <ListItemText primary="Getting outdoors" />
+            </ListItem>
+            <ListItem>
+              <ListItemIcon>
+                <GolfCourse />
+              </ListItemIcon>
+              <ListItemText primary="Golf" />
+            </ListItem>
+            <ListItem>
+              <ListItemIcon>
+                <DownhillSkiing />
+              </ListItemIcon>
+              <ListItemText primary="Skiing" />
+            </ListItem>
+            <ListItem>
+              <ListItemIcon>
+                <Memory />
+              </ListItemIcon>
+              <ListItemText primary="Computing" />
+            </ListItem>
+          </List>
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
@@ -86,7 +83,7 @@ export default function AboutTimeline() {
         </TimelineSeparator>
         <TimelineContent>
           <Typography variant="h6">(West)bound and down</Typography>
-          <Typography variant="body1" >
+          <Typography variant="body1" gutterBottom>
             I moved to the west coast of Canada in the early 2010&apos;s to
             attend the University of British Columbia (UBC) and play on the
             Thunderbirds golf team. I graduated with a Bachelor of Science in
@@ -108,7 +105,7 @@ export default function AboutTimeline() {
         </TimelineSeparator>
         <TimelineContent>
           <Typography variant="h6">Back to school</Typography>
-          <Typography variant="body1" >
+          <Typography variant="body1" gutterBottom>
             In the fall of 2018 I returned to UBC to complete my Bachelor of
             Computer Science.
           </Typography>
