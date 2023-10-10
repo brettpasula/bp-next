@@ -1,5 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+My personal website built with [Next.js](https://nextjs.org/), [Material UI](https://mui.com/material-ui/) and deployed on [Vercel](https://vercel.com/). 
+
 # Docs
 [Next.js](https://nextjs.org/docs)\
 [MUI Material Design System](https://mui.com/material-ui/)\
