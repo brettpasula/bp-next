@@ -87,7 +87,13 @@ export default function AboutTimeline() {
             I moved to the west coast of Canada in the early 2010&apos;s to
             attend the University of British Columbia (UBC) and play on the
             Thunderbirds golf team. I graduated with a Bachelor of Science in
-            Geology with Honours in 2018.
+            Geology with Honours in 2018. As part of my studies I completed
+            courses on igneous, metamorphic and sedimentary petrology,
+            groundwater hydrology, structural geology, geomorphology, soils,
+            statistics, GIS, geochemistry and volcanology. I worked a summer
+            season in northeast BC assisting with a seismic survey (and back in
+            the lab on off weeks), and another season in the Golden Triangle
+            working with a junior exploration company.
           </Typography>
         </TimelineContent>
       </TimelineItem>
@@ -106,8 +112,15 @@ export default function AboutTimeline() {
         <TimelineContent>
           <Typography variant="h6">Back to school</Typography>
           <Typography variant="body1" gutterBottom>
-            In the fall of 2018 I returned to UBC to complete my Bachelor of
-            Computer Science.
+            An introductory programming course I took as part of my previous
+            degree initiated my interest in computer programming. In the fall of
+            2018 I returned to UBC to complete my Bachelor of Computer Science.
+            As part of my BCS degree I completed a co-op term and courses on
+            data visualization, relational databases, machine learning,
+            hardware, networking, algorithms and data structures. I supplemented
+            my degree with additional business courses on financial and
+            managerial accounting, process and operations, entrepreneurship, and
+            ethics.
           </Typography>
         </TimelineContent>
       </TimelineItem>
@@ -119,7 +132,7 @@ export default function AboutTimeline() {
         </TimelineSeparator>
         <TimelineContent>
           <Typography variant="h6">Today</Typography>
-          <Typography variant="body1">
+          <Typography variant="body1" gutterBottom>
             I&apos;m passionate about building software that makes a positive
             impact in the world. I enjoy working with all parts of the stack,
             but my hobby interest lies in the front-end (I ❤️ design systems).
