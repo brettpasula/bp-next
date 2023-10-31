@@ -14,7 +14,9 @@ import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 import TimelineItem from "@mui/lab/TimelineItem";
-import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
+import TimelineOppositeContent, {
+  timelineOppositeContentClasses,
+} from "@mui/lab/TimelineOppositeContent";
 import TimelineSeparator from "@mui/lab/TimelineSeparator";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
@@ -27,8 +29,17 @@ import Typography from "@mui/material/Typography";
  */
 export default function AboutTimeline() {
   return (
-    <Timeline position="alternate">
+    <Timeline
+      sx={{
+        [`& .${timelineOppositeContentClasses.root}`]: {
+          flex: 0.2,
+        },
+      }}
+      position="right"
+    >
       <TimelineItem>
+        <TimelineOppositeContent>
+        </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot>
             <Home />
@@ -125,6 +136,10 @@ export default function AboutTimeline() {
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
+        <TimelineOppositeContent>
+        <Typography variant="body2" marginTop="11.5px">
+          </Typography>
+        </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot>
             <Computer />
