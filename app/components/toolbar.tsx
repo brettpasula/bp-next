@@ -29,12 +29,16 @@ export default function TopToolbar() {
             <IconButton
               href="https://github.com/brettpasula"
               aria-label="GitHub"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <GitHub sx={{ color: "#FFF" }} />
             </IconButton>
             <IconButton
               href="https://www.linkedin.com/in/brettpasula/"
               aria-label="LinkedIn"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <LinkedIn sx={{ color: "#FFF" }} />
             </IconButton>
