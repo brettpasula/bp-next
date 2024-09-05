@@ -1,46 +1,36 @@
-import OpenInNewIcon from '@mui/icons-material/OpenInNew';
+import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 import Box from "@mui/material/Box";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 import FullPageWithToolbarSpacer from "../components/full-page-with-toolbar-spacer";
-import Link from "@mui/material/Link";
+import LinkButton from "../components/link-button";
+import { Container } from "@mui/material";
 
 export default function Contact() {
   return (
     <FullPageWithToolbarSpacer>
-      <Typography
-        variant="h5"
-        textAlign="center"
-        marginTop="16px">
+      <Typography variant="h5" textAlign="center" marginTop="16px">
         Contact
       </Typography>
-      <Box
-        display="flex"
-        justifyContent="center">
-        <Stack
-          direction="column"
-          spacing={2}
-          maxWidth="200px"
-          marginTop="16px">
-          <Link
+      <Box display="flex" justifyContent="center">
+        <Stack direction="column" spacing={2} maxWidth="200px" marginTop="16px">
+          <LinkButton
             href="https://github.com/brettpasula"
+            variant="outlined"
             aria-label="Open my GitHub profile in a new tab"
-            target="_blank"
-            rel="noopener noreferrer"
-            variant="h6">
-            GitHub
-
-            <OpenInNewIcon fontSize='small' />
-          </Link>
-          <Link
+            buttonStyle={{ width: "100%" }}
+          >
+            <Container>GitHub</Container>
+            <OpenInNewIcon fontSize="small" />
+          </LinkButton>
+          <LinkButton
             href="https://www.linkedin.com/in/brettpasula/"
             aria-label="Open my LinkedIn profile in a new tab"
-            target="_blank"
-            rel="noopener noreferrer"
-            variant="h6">
-            LinkedIn
-            <OpenInNewIcon fontSize='small' />
-          </Link>
+            variant="outlined"
+          >
+            <Container>LinkedIn</Container>
+            <OpenInNewIcon fontSize="small" />
+          </LinkButton>
         </Stack>
       </Box>
     </FullPageWithToolbarSpacer>

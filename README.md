@@ -2,7 +2,7 @@ My personal website built with [Next.js](https://nextjs.org/), [Material UI](htt
 
 # Docs
 [Next.js](https://nextjs.org/docs)\
-[MUI Material Design System](https://mui.com/material-ui/)\
+[Material UI Components](https://mui.com/material-ui/all-components/)\
 [Material Icons](https://fonts.google.com/icons?icon.set=Material+Icons)
 
 # References
