@@ -18,7 +18,7 @@ export default function Home() {
           </Typography>
           <Typography>
             This is the personal website of Brett Pasula, a software developer
-            from Canada.
+            from Canada. Thank you for visiting!
           </Typography>
         </Stack>
       </Box>

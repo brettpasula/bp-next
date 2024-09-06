@@ -2,13 +2,12 @@ import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 import Box from "@mui/material/Box";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
-import FullPageWithToolbarSpacer from "../components/full-page-with-toolbar-spacer";
 import LinkButton from "../components/link-button";
 import { Container } from "@mui/material";
 
 export default function Contact() {
   return (
-    <FullPageWithToolbarSpacer>
+    <Container>
       <Typography variant="h5" textAlign="center" marginTop="16px">
         Contact
       </Typography>
@@ -33,6 +32,6 @@ export default function Contact() {
           </LinkButton>
         </Stack>
       </Box>
-    </FullPageWithToolbarSpacer>
+    </Container>
   );
 }
