@@ -1,3 +1,7 @@
+import "@fontsource/roboto/300.css";
+import "@fontsource/roboto/400.css";
+import "@fontsource/roboto/500.css";
+import "@fontsource/roboto/700.css";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import Stack from "@mui/material/Stack";
@@ -6,12 +10,7 @@ import Typography from "@mui/material/Typography";
 export default function Home() {
   return (
     <Container>
-      <Box
-        height="100vh"
-        display="flex"
-        textAlign="center"
-        alignItems="center"
-      >
+      <Box height="100vh" display="flex" textAlign="center" alignItems="center">
         <Stack direction="column" flexGrow="1">
           <Typography id="home" variant="h1">
             Hello! 👋
